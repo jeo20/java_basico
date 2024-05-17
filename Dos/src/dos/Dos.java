@@ -10,11 +10,30 @@ package dos;
  */
 public class Dos {
 
-    /**
-     * @param args the command line arguments
-     */
+    static final double PI = 3.1416;
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        int numero1;
+        int numero2;
+        double resultado;
+
+        numero1 = 5;
+        numero2 = 10;
+
+        resultado = PI * 3;
+        System.out.println("El resultado es: " + resultado);
+
+        /*        
+        int numero; // Declaracion de variable numero como entero
+        char letra;
+        String texto;
+        
+        numero = 5;  // Inicializacion de variable
+        letra = 'M';
+        texto = "Hola buen dia";
+        
+        System.out.println(texto); // Utilizacion, imprimo variable
+         */
     }
-    
+
 }
