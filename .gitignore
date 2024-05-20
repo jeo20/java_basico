@@ -89,3 +89,5 @@ nb-configuration.xml
 ##############################
 *.log
 /Dos/nbproject/private/
+/sentencias/nbproject/private/
+/Sentencias/nbproject/private/
