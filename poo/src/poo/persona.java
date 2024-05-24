@@ -4,11 +4,23 @@
  */
 package poo;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author m26344676
  */
-public class persona {
+public class Persona {
+    
+    /* CONSTRUCTOR PERSONA */
+    /*
+    public Persona (String _nombre, String _fechaNacimiento, int _edad){
+        nombre = _nombre;
+        fechaNacimiento = _fechaNacimiento;
+        edad = _edad;
+    }*/
+            
+    
     private String nombre;
 
     public String getNombre() {
@@ -37,10 +49,18 @@ public class persona {
     private String fechaNacimiento;
     private int edad;
     
-    /*METODO CREAPERSONA*/
+    /* METODO CREAPERSONA
     public void creaPersona(String _nombre, String _fechaNacimiento, int _edad){
         nombre = _nombre;
         fechaNacimiento = _fechaNacimiento;
         edad = _edad;
+    }*/
+    
+    public int suma(int valor1, int valor2){
+        return valor1 + valor2;
     }
+    
+    public double suma(double valor1, double valor2){
+        return valor1 + valor2;
+    }    
 }
